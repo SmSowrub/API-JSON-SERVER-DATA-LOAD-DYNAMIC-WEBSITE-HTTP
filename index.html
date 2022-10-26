@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>JSON</h2>
+    <H2>JAVASCRIPT OBJECT NOTATION</H2>
+
+    <SCript>
+        const user={
+            Name:"Sowrub Mojumder",
+            Age:21,
+            Lover:{Name:"Nisat Tabassum",food:"Foska",Hobby:"Me"},
+            friends:['sowrub','sabbir','sakib','rabbi']
+        };
+
+        const userJson=JSON.stringify(user);//jodi js object k json a conbart korty cai taholy stringify use kora hoy
+        console.log(userJson);
+        const userJsonFrom=JSON.parse(userJson);// ar jodi abar json taky aber object a conbart korty cai taholy "parse" use kora hoy; 
+        console.log(userJsonFrom);
+        
+    </SCript>
 </body>
 </html>
